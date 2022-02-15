@@ -2,9 +2,9 @@
 
 <article
     {{ $attributes->merge(['class' => 'transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl']) }}>
-    <div class="py-6 px-5 h-full flex flex-col">
+    <div class="rounded-xl py-6 px-5 h-full flex flex-col" style="background-color: white;">
         <div>
-            <img src="{{ asset('storage/' . $post->thumbnail) }}" alt="Blog Post illustration" class="rounded-xl">
+            <img src="http://justbetter.cl/img/logo.png" alt="Blog Post illustration" class=" bg-black">
         </div>
 
         <div class="mt-6 flex flex-col justify-between flex-1">

@@ -1,10 +1,10 @@
 @props(['post'])
 
 <article
-    class="transition-colors duration-300 hover:bg-gray-100 border border-black border-opacity-0 hover:border-opacity-5 rounded-xl">
-    <div class="py-6 px-5 lg:flex">
+    class="transition-colors duration-300 hover:bg-gray-500 border border-black border-opacity-0 hover:border-opacity-5 ">
+    <div class="rounded-xl py-6 px-5 lg:flex" style="background-color: white;">
         <div class="flex-1 lg:mr-8">
-            <img src="{{ asset('storage/' . $post->thumbnail) }}" alt="Blog Post illustration" class="rounded-xl">
+            <img src="http://justbetter.cl/img/logo.png" alt="Blog Post illustration" class="bg-black">
         </div>
 
         <div class="flex-1 flex flex-col justify-between">
